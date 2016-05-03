@@ -4,9 +4,18 @@
 
 This tutorial covers Processing 3 in IntelliJ IDEA 15 Community Edition (CE) on Mac OS X.
 
+
+## Getting a Java Development Kit
+
 First, you need to have a Java JDK installed. [Download one from Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). and Install it.
 
-Once you've done that, run IntelliJ IDEA and select **Create a new Project**.
+## Getting IntelliJ IDEA
+
+You can [download IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/) for free from JetBrains.
+
+## Creating a Project
+
+Run IntelliJ IDEA and select **Create a new Project**.
 
 Select **Java** on the top left, then select the JDK you installed in the Project SDK Dropdown. If you do not see it installed, click `New > JDK`. IntelliJ should automatically select the right folder, then click OK, then click **Next**. 
 
@@ -14,7 +23,7 @@ Do Nothing and click **Next**.
 
 Call your Project Name `projectname` and click **Finish**.
 
-# Add Processing libraries
+## Adding Processing libraries
 
 Click File > Project Structure and Select Libraries in the left column.
 
@@ -24,7 +33,7 @@ Assuming your Processing IDE is installed in the default location, you should fi
 
 Click OK to select the only Module (named `projectname`). Click OK again to exit "Project Structure".
 
-# Creating Scaffolding Code
+## Creating Scaffolding Code
 
 Right click on the src folder in the left column and select `New > Package`. Call name the package something unique. Here we will use `com.wearesubrosa.projectname`.
 
@@ -73,7 +82,7 @@ public class Main {
 }
 ```
 
-# Running your Processing Application
+## Running your Processing Application
 
 Select `Run > Edit Configurations` from the menu.
 
@@ -81,7 +90,7 @@ Select `Application` from under `Defaults`.
 
 Enter `com.wearesubrosa.projectname.Main` into the Main class field and click OK.
 
-# Saving as a Template
+## Saving as a Template
 
 Once you complete this, you can select `Tools > Save Project As Template`. Enter `Processing Project` in the Name and enter a description and click OK.
 
