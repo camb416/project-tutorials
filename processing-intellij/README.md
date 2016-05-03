@@ -1,4 +1,6 @@
-Write Processing 3 sketches in IntelliJ IDEA.
+[< back](../)
+
+# Write Processing 3 sketches in IntelliJ IDEA.
 
 This tutorial covers Processing 3 in IntelliJ IDEA 15 Community Edition (CE) on Mac OS X.
 
@@ -21,6 +23,8 @@ Click the + and select "Java".
 Assuming your Processing IDE is installed in the default location, you should find `core.jar` at "/Applications/Processing.app/Contents/Java/core.jar". Select the file and Click OK.
 
 Click OK to select the only Module (named `projectname`). Click OK again to exit "Project Structure".
+
+# Creating Scaffolding Code
 
 Right click on the src folder in the left column and select `New > Package`. Call name the package something unique. Here we will use `com.wearesubrosa.projectname`.
 
@@ -85,11 +89,4 @@ Next time you want to create a Processing Project, you can select "Processing Pr
 
 When creating from a template, you should rename the last part of the Base package, and the Project Name.
 
-
-
-
-
-
-
-
-https://blog.klingt.net/posts/processing-2-in-intellij-idea-14/
+Thanks to Andreas Linz, who wrote another [great, and frankly more thorough tutorial](https://blog.klingt.net/posts/processing-2-in-intellij-idea-14/) on this topic .
