@@ -9,19 +9,29 @@ This tutorial covers Processing 3 in IntelliJ IDEA 15 Community Edition (CE) on 
 
 First, you need to have a Java JDK installed. [Download one from Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html). and Install it.
 
+![Oracle Site](oracle.jpg) ![Oracle pkg](jdkpkg.jpg)
+
 ## Getting IntelliJ IDEA
 
 You can [download IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/) for free from JetBrains.
 
 ## Creating a Project
 
-Run IntelliJ IDEA and select **Create a new Project**.
+Run IntelliJ IDEA and select **Create a new Project** on the welcome screen.
+
+![Create a New Project from the Welcome screen](newproject.jpg)
 
 Select **Java** on the top left, then select the JDK you installed in the Project SDK Dropdown. If you do not see it installed, click `New > JDK`. IntelliJ should automatically select the right folder, then click OK, then click **Next**. 
 
-Do Nothing and click **Next**.
+![Select your SDK](projectSDK.jpg)
+
+Do Nothing on the next screen and click **Next**.
+
+![Do nothing on this screen](donothinghere.jpg)
 
 Call your Project Name `projectname` and click **Finish**.
+
+![Name your project](projectname.jpg)
 
 ## Adding Processing libraries
 
